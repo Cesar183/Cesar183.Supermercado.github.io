@@ -3,7 +3,7 @@ package com.api.Market.domain;
 public class Product {
     private int productId;
     private String name;
-    private int categoriaId;
+    private int categoryId;
     private double price;
     private int stock;
     private boolean active;
@@ -25,12 +25,12 @@ public class Product {
         this.name = name;
     }
 
-    public int getCategoriaId() {
-        return categoriaId;
+    public int getCategoryId() {
+        return categoryId;
     }
 
-    public void setCategoriaId(int categoriaId) {
-        this.categoriaId = categoriaId;
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
     public double getPrice() {
