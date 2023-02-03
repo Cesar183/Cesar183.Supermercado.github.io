@@ -17,8 +17,7 @@ public interface ProductMapper {
             @Mapping(source = "idCategoria", target = "categoryId"),
             @Mapping(source = "precioVenta", target = "price"),
             @Mapping(source = "cantidadStock", target = "stock"),
-            @Mapping(source = "estado", target = "active"),
-            @Mapping(source = "idProducto", target = "category")
+            @Mapping(source = "estado", target = "active")
     })
     Product toProduct(Producto producto);
     List<Product> toProducts(List<Producto> productos);
