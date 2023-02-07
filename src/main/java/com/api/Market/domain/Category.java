@@ -28,4 +28,7 @@ public class Category {
     public void setActive(boolean active) {
         this.active = active;
     }
+
+    public static class Purchase {
+    }
 }
